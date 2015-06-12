@@ -14,6 +14,10 @@
     src: url("../font/Borg.ttf") format("truetype");
 }
 
+@font-face {
+    
+}
+
 .navbar-brand {
     font-family: 'Orbitron', sans-serif;
 }
@@ -25,9 +29,30 @@
 
 .jumbotron h1 {
     font-family: "Moon Light", sans-serif;
+    color: #000;
 }
 
 .jumbotron span {
     font-family: "Orbitron", sans-serif;
 }
+.jumbotron {
+    background-color:rgba(255,255,255,.4);/* modern browser */
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+    height: 100%;
+    margin-bottom: 0px;
+}
 
+.what-we-are {
+    background-color: rgb(0,0,0);
+    text-align: center;
+}
+
+.what-we-are h1 {
+    font-family: "Borg", sans-serif;
+    font-size: 70px;
+}
+
+.what-we-are h3 {
+
+}
