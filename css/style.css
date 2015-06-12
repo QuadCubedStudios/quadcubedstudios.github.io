@@ -14,8 +14,8 @@
     src: url("../font/Borg.ttf") format("truetype");
 }
 
-@font-face {
-    
+body {
+    background: url('../img/background.png');
 }
 
 .navbar-brand {
@@ -39,20 +39,36 @@
     background-color:rgba(255,255,255,.4);/* modern browser */
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
-    height: 100%;
-    margin-bottom: 0px;
+    margin: 50px 0 0 0;
+    position: relative;
 }
 
-.what-we-are {
+#credit {
+    position: absolute;
+    background: #222;
+    padding: 15px;
+    bottom: 50px;
+    right: 0;
+}
+
+#what-we-are {
     background-color: rgb(0,0,0);
     text-align: center;
+    /* Hack for removing the horizontal scrollbar */
+    margin: 0;
+    height: 95vh;
 }
 
-.what-we-are h1 {
+#what-we-are h1 {
     font-family: "Borg", sans-serif;
     font-size: 70px;
+    color: #DDD;
 }
 
-.what-we-are h3 {
+#what-we-are h3 {
+    color: #DDD;
+}
 
+.screen {
+    height: 95vh;
 }
