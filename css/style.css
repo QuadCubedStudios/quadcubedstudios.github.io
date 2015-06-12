@@ -16,6 +16,7 @@
 
 body {
     background: url('../img/background.png');
+    background-attachment: fixed;
 }
 
 .navbar-brand {
