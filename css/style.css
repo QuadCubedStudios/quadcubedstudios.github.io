@@ -1,0 +1,33 @@
+/*font-faces!!*/
+@font-face {
+    font-family: "Moon Bold";
+    src: url("../font/Moon%20Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Moon Light";
+    src: url("../font/Moon%20Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Borg";
+    src: url("../font/Borg.ttf") format("truetype");
+}
+
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar li {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron h1 {
+    font-family: "Moon Light", sans-serif;
+}
+
+.jumbotron span {
+    font-family: "Orbitron", sans-serif;
+}
+
