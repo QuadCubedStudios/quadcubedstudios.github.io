@@ -57,6 +57,7 @@ body {
     /* Hack for removing the horizontal scrollbar */
     margin: 0;
     height: 95vh;
+    padding: 20px;
 }
 
 #what-we-are h1 {
