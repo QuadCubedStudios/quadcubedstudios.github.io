@@ -15,7 +15,27 @@
 }
 
 @font-face {
-    
+    font-family: "Berlin";
+    src: url("../font/Berlin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Berlin Bold";
+    src: url("../font/Berlin%20Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Berlin Italic";
+    src: url("../font/Berlin%20-%20Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Berlin X Bold";
+    src: url("../font/Berlin%20X-Bold.ttf") format("truetype");
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -32,20 +52,25 @@
     color: #000;
 }
 
-.jumbotron span {
+.jumbotron sp-color:rgba(255,255,255,.4);/* modern browser */
+
+height: 10an {
     font-family: "Orbitron", sans-serif;
 }
 .jumbotron {
     background-color:rgba(255,255,255,.4);/* modern browser */
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);/*IE fix */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+
     height: 100%;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .what-we-are {
-    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);/*IE fix */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     text-align: center;
+    color: #fff;
 }
 
 .what-we-are h1 {
@@ -54,5 +79,6 @@
 }
 
 .what-we-are h3 {
-
+    font-family: "Berlin", sans-serif;
+    font-size: 30px;
 }
