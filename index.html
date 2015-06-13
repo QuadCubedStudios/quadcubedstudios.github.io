@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Quad³ Studios</title>
 
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.js"></script>
+
     <!-- Bootstrap Just 'cause. -->
     <!-- twbs.com -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
@@ -15,10 +18,13 @@
 
     <!-- Custom CSS (vanilla just 'cause) -->
     <link href="css/style.css" type="text/css" rel="stylesheet">
-</head>
-<body background="img/BodyBg.jpg">
 
-<nav class="navbar navbar-inverse navbar-static-top">
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -34,7 +40,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">About</a></li>
+                <li><a href="#what-we-are">About</a></li>
                 <li><a href="#">Our Team</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -44,13 +50,16 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<div class="jumbotron">
+<div class="jumbotron screen">
     <div class="container">
         <h1>WE ARE INDIE DEVELOPERS, AIMING TO CREATE BEAUTIFUL APPS FOR THE WORLD.</h1>
         <h1>WE ARE <span>Quad³ Studios.</span></h1>
     </div>
+    <div id="credit">
+        <a href='http://www.freepik.com/free-vector/technology-background-in-blue-color_794333.htm'>Designed by Freepik</a>
+    </div>
 </div>
-<div class="row what-we-are">
+<div id="what-we-are" class="row screen">
     <div class="container">
         <h1>What is Quad³ Studios?</h1>
         <h3>Quad³ Studios is an organization, created by Technohacker & Raghu AllTheTime.</h3>
