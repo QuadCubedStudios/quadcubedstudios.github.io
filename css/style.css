@@ -34,6 +34,14 @@
     src: url("../font/Berlin%20X-Bold.ttf") format("truetype");
 }
 
+body {
+    background-image: url("../img/BodyBg.svg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
 .navbar {
     margin-bottom: 0px;
 }
@@ -47,21 +55,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.jumbotron h1 {
-    font-family: "Moon Light", sans-serif;
-    color: #000;
-}
 
-.jumbotron span{
-    font-family: "Orbitron", sans-serif;
-}
-.jumbotron {
-    background-color:rgba(0,0,255,.5);/* modern browser */
-    width:100%;
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 .what-we-are {
     background-color: rgba(0,0,0,0.4);
@@ -71,6 +65,7 @@
     align-items: center;
     color: #fff;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .what-we-are h1 {
@@ -115,6 +110,11 @@
     color: #000;
 }
 
+.button:focus {
+    text-decoration: none;
+    color: #000;
+}
+
 .navbar-brand img {
     width: 20px;
     height: 20px;
@@ -134,7 +134,85 @@
     font-size: 70px;
 }
 
-.projects h3 {
+.projects h3, h4 {
     font-family: "Berlin", sans-serif;
-    font-size: 30px;
+}
+
+.projects h2 {
+    font-family: "Lato", sans-serif;
+}
+
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+    color: inherit;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.jumbotron > hr {
+    border-top-color: #d5d5d5;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+    border-radius: 6px;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding: 48px 0;
+    }
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .jumbotron h1,
+    .jumbotron .h1 {
+        font-size: 63px;
+    }
+}
+
+.jumbotron h1 {
+    font-family: "Moon Light", sans-serif;
+    color: #000;
+}
+
+.jumbotron span{
+    font-family: "Orbitron", sans-serif;
+}
+.jumbotron {
+    background-color:rgba(0,0,255,.5);/* modern browser */
+    width:100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.what-we-are h1 {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.projects h1 {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+nav li {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+nav .brand-logo {
+    font-family: "Orbitron", sans-serif;
 }

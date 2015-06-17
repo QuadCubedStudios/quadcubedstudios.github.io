@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <title>Quad³ Studios</title>
 
+    <!-- Font Awesome Icons, for amazing icons, yeah. -->
+    <link href="font/font-awesome-4.3.0/css/font-awesome.css">
+
+    <!-- Obviously, the most amazing of all JS Libraries, JQuery! (Ok Node.js is also good, but still..) -->
+    <script src="js/jquery-1.11.3.js"></script>
+
+    <!-- Materialize, one of the most amazing frameworks I've seen around. -->
+    <!-- materializecss.org -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <script src="js/materialize.js"></script>
+
     <!-- Bootstrap Just 'cause. -->
-    <!-- twbs.com -->
+    <!-- getbootstrap.com
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>-->
 
     <!-- Google Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
@@ -17,33 +28,20 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body background="img/BodyBg.svg">
-<!-- Navbar for nice navigation -->
-<nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Quad³ Studios</a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Our Team</a></li>
+<!-- Navbar for nice navigation -->
+<div class="navbar-fixed">
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Quad³ Studios</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">What we do</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Handbook</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+        </div>
+    </nav>
+</div>
 
 <!-- Huge Jumbotron -->
 <div class="jumbotron">
@@ -64,15 +62,24 @@
 </div>
 
 <div class="row projects">
-    <div class="container">
-        <h1>OUR PROJECTS</h1>
-        <h3>We have a few projects right now. Here are a few projects we are doing.</h3>
-        <div class="container col-lg-3">
-            <
+    <h1>OUR PROJECTS</h1>
+    <h3>We have a few projects right now. Here are a few projects we are doing.</h3>
+    <div class="container col s4">
+        <h2>This Website</h2>
+        <h2>W E B P A G E</h2>
+        <h4>Look here to see how this website was made!</h4>
+        <h4>The Website uses various frameworks like materialize, bootstrap, normalize and JQuery!</h4>
+        <h4>Look here to get all your questions about this site, answered!</h4>
+        <h4>Platforms: <span></h4>
+        <div class="progress">
+            <div class="determinate" style="width: 40%;"></div>
         </div>
-        <div class="container col-lg-3"></div>
-        <div class="container col-lg-3"></div>
     </div>
+    <div class="container col s4">
+        <h2>TuneHacker</h2>
+        <h4>Tunehacker is a beautiful game app synced to music. </h4>
+    </div>
+    <div class="container col s4"></div>
 </div>
 
 
