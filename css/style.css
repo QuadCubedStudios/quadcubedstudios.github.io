@@ -40,6 +40,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -55,10 +56,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
-
 .what-we-are {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(13,50,130);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     text-align: center;
@@ -121,32 +120,39 @@ body {
 }
 
 .projects {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
-    color: #000;
-    align-content: center;
-    text-align: center;
 }
 
 .projects h1 {
+    text-align: center;
     font-family: "Borg", sans-serif;
     font-size: 70px;
+    color: white;
 }
 
 .projects h3, h4 {
+    text-align: center;
     font-family: "Berlin", sans-serif;
+    color: white;
 }
 
 .projects h2 {
     font-family: "Lato", sans-serif;
 }
 
+.card.small .card-content {
+    height: 200px;
+}
+
 .jumbotron {
+    background-image: url("../img/BodyBg.svg");
+    background-attachment: fixed;
     padding: 30px 15px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #eee;
+    background-color: #000;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -184,14 +190,14 @@ body {
 
 .jumbotron h1 {
     font-family: "Moon Light", sans-serif;
-    color: #000;
+    color: #FFF;
 }
 
 .jumbotron span{
     font-family: "Orbitron", sans-serif;
 }
 .jumbotron {
-    background-color:rgba(0,0,255,.5);/* modern browser */
+    background-color:rgba(0,0,0,.5);/* modern browser */
     width:100%;
     height: 100%;
     margin-top: 0px;
