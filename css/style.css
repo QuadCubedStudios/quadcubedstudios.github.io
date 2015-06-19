@@ -222,3 +222,7 @@ nav li {
 nav .brand-logo {
     font-family: "Orbitron", sans-serif;
 }
+
+.what-we-are .btn {
+    margin-bottom: 20px;
+}
