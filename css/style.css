@@ -57,7 +57,7 @@ body {
 }
 
 .what-we-are {
-    background-color: rgb(0,0,0);
+    background-color: rgb(22,25,27);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     text-align: center;
