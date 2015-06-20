@@ -21,18 +21,23 @@
 
     <!-- Custom CSS (vanilla just 'cause) -->
     <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom JS -->
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/index.js"></script>
 </head>
-<body background="img/BodyBg.jpg">
+<body>
 
 <!-- Navbar for nice navigation -->
 <div class="navbar-fixed">
     <nav class="grey darken-4">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo center">Quad³ Studios</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i
+                    class="mdi-navigation-menu"></i></a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#what-we-are">About Us</a></li>
                 <li><a href="#">What we do</a></li>
             </ul>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -45,7 +50,7 @@
 </div>
 
 <!-- Huge Jumbotron -->
-<div class="jumbotron teal-text darken-2">
+<div class="jumbotron teal-text darken-2" id="home">
     <div class="container">
         <h1>WE ARE INDIE DEVELOPERS, AIMING TO CREATE BEAUTIFUL APPS FOR THE WORLD.</h1>
         <h1>WE ARE <span>Quad³ Studios.</span></h1>
@@ -53,7 +58,7 @@
 </div>
 
 <!-- What we are -->
-<div class="row what-we-are">
+<div class="row what-we-are" id="what-we-are">
     <div class="container">
         <h1>WHAT WE ARE</h1>
         <h3>Quad Cubed Studios was created by Raghu AllTheTime & Technohacker.</h3>

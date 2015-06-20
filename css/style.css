@@ -223,3 +223,13 @@ nav .brand-logo {
 .what-we-are .btn {
     margin-bottom: 20px;
 }
+
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
