@@ -34,13 +34,17 @@
     src: url("../font/Berlin%20X-Bold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Bariol";
+    src: url("../font/Bariol_Regular/Bariol_Regular.otf") format("truetype");
+}
+
 body {
-    background-image: url("../img/BodyBg.jpg");
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
-    background-attachment: fixed;
+    background: url("../img/BodyBg.jpg") fixed;
 }
 
 .navbar {
@@ -125,11 +129,19 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
 }
 
-.projects h1 {
+.row {
+    margin-bottom: 0px;
+}
+
+.row h1 {
     text-align: center;
     font-family: "Borg", sans-serif;
     font-size: 70px;
     color: white;
+}
+
+.row h3 {
+    font-size: 30px;
 }
 
 .projects h3, h4 {
@@ -143,7 +155,7 @@ body {
 }
 
 .card.small .card-content {
-    height: 200px;
+    height: 300px;
 }
 
 .jumbotron {
@@ -232,4 +244,47 @@ nav .brand-logo {
     h3 {
         font-size: 20px;
     }
+}
+
+.projects div.card-content > h1 {
+    margin-bottom: 0px;
+    font-family: "Bariol", sans-serif;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    font-family: "Berlin", sans-serif;
+}
+
+.facebook-blue {
+    background-color: #3B5998 ;
+}
+
+.twitter-blue {
+    background-color: #4099FF;
+}
+
+.contact h1 {
+    padding-top:20px;
+    margin-top: 0px;
+}
+
+div.card-content {
+    height: 300px;
+}
+
+.contact a.waves-circle {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+}
+
+.row .l12 {
+    padding-bottom: 20px;
 }
