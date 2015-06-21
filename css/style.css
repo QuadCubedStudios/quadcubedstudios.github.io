@@ -236,16 +236,6 @@ nav .brand-logo {
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 320px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-}
-
 .projects div.card-content > h1 {
     margin-bottom: 0px;
     font-family: "Bariol", sans-serif;
@@ -288,4 +278,19 @@ footer.page-footer {
 
 .row .l12 {
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) {
+
+    nav .brand-logo {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
 }
