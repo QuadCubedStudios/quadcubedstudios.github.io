@@ -249,6 +249,7 @@ nav .brand-logo {
 .projects div.card-content > h1 {
     margin-bottom: 0px;
     font-family: "Bariol", sans-serif;
+    font-size: 50px;
 }
 
 .contact {
