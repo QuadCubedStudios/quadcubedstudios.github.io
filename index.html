@@ -13,8 +13,8 @@
 
     <!-- Materialize, one of the most amazing frameworks I've seen around. -->
     <!-- materializecss.org -->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet">
-    <script src="js/materialize.js"></script>
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
+    <script src="js/materialize.min.js"></script>
 
     <!-- Google Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
@@ -29,6 +29,13 @@
 </head>
 <body>
 
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">TuneSync</a></li>
+    <li><a href="#!">This Website</a></li>
+    <li class="divider"></li>
+    <li class="grey-text"> <a href="#"> More Coming Soon!</a></li>
+</ul>
+
 <!-- Navbar for nice navigation -->
 <div class="navbar-fixed">
     <nav class="orange darken-3">
@@ -42,11 +49,11 @@
                 <li><a href="#">What we do</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Projects</a></li>
+                <li><a class="dropdown-button" href="#" data-activates="dropdown1">Projects <i class="material-icons">keyboard_arrow_down</i> </a></li>
                 <li><a href="#">Handbook</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <ul class="side-nav black" id="nav-mobile">
+            <ul class="side-nav orange darken-3" id="nav-mobile">
                 <li><a href="#home" class="grey-text">Home</a></li>
                 <li><a href="#what-we-are" class="grey-text">About Us</a></li>
                 <li><a href="#" class="grey-text">What we do</a></li>
@@ -86,7 +93,7 @@
                 <div class="card-content white-text">
                     <span class="card-title">This Website</span>
                     <p>Look here to see how this website was made!<br>
-                        This Website uses various frameworks like Materialize.css, Normalize and
+                        This Website uses various frameworks like Materialize.css, Normalize, smoothscroll and
                         JQuery!<br>
                         Look here to get all your questions about this site, answered!</p>
                     <p>Platforms: <i class="fa fa-globe"></i>(The Internet!)</p>
@@ -134,7 +141,6 @@
         <a class="waves-effect waves-circle waves-light btn-floating facebook-blue" href="https://www.facebook.com/pages/Quad%C2%B3-Studios/408547402685749"><i class="fa fa-facebook"></i></a>
         <a class="waves-effect waves-circle waves-light btn-floating red" href="https://plus.google.com/u/0/b/110784369087262717737/110784369087262717737/about"><i class="fa fa-google-plus"></i></a>
         <a class="waves-effect waves-circle waves-light btn-floating twitter-blue"><i class="fa fa-twitter"></i></a>
-        <a class="waves-effect waves-circle waves-light btn-floating red darken-1"><i class="fa fa-pinterest-p"></i></a>
     </div>
 </div>
 <footer class="page-footer orange darken-2">
