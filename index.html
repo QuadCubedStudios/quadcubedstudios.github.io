@@ -8,7 +8,7 @@
     <!-- Font Awesome Icons, for amazing icons, yeah. -->
     <link href="font/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
 
-    <!-- Obviously, the most amazing of all JS Libraries, JQuery! (Ok Node.js is also good, but still..) -->
+    <!-- Write Less, Do More.  You Know IT! -->
     <script src="js/jquery-1.11.3.js"></script>
 
     <!-- Materialize, one of the most amazing frameworks I've seen around. -->
@@ -18,7 +18,6 @@
 
     <!-- Google Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom CSS (vanilla just 'cause) -->
     <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -30,10 +29,10 @@
 <body>
 
 <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">TuneSync</a></li>
-    <li><a href="#!">This Website</a></li>
+    <li><a href="index.html">This Website</a></li>
     <li class="divider"></li>
-    <li class="grey-text"> <a href="#"> More Coming Soon!</a></li>
+    <li><a href="MultiScreenPong">Multi Screen Pong</a></li>
+    <li><a href="http://razetime.github.io/machete">Machete</a></li>
 </ul>
 
 <!-- Navbar for nice navigation -->
@@ -67,97 +66,104 @@
 </div>
 
 <!-- Huge Jumbotron -->
-<div class="jumbotron grey-text text-lighten-2" id="home">
-    <div class="container">
+<div class="jumbotron grey-text text-darken-4 valign-wrapper" id="home">
+    <div class="container valign">
         <h1>Hello.</h1>
-        <h1>We are Quad³ Studios.</h1>
+        <h1>We are Quad<span class="cubed">³</span> Studios.</h1>
+        <div class="center"><a href="#what-we-are" class="btn btn-floating transparent"><span class="fa fa-chevron-down"></span></a></div>
     </div>
 </div>
 
 <!-- What we are -->
-<div class="row what-we-are orange darken-3" id="what-we-are">
-    <div class="container">
-        <h1>WHAT WE ARE</h1>
-        <h3>Quad Cubed Studios was created by Raghu AllTheTime & Technohacker.</h3>
-        <h3>We are a small organization, aiming to create clean and free apps to share with everyone.</h3>
-        <a class="waves-effect waves-light btn orange darken-4" role="button" href="">Learn More</a>
-    </div>
-</div>
-
-<div class="row projects">
-    <h1>OUR PROJECTS</h1>
-    <h3>We have a few projects right now. Here are a few projects we are doing.</h3>
-
+<div class="what-we-are orange darken-3" id="what-we-are">
     <div class="row">
-        <div class="col s12 m4">
-            <div class="card small orange darken-3">
-                <div class="card-content white-text">
-                    <span class="card-title">This Website</span>
-                    <p>Look here to see how this website was made!<br>
-                        This Website uses various frameworks like Materialize.css, Normalize, smoothscroll and
-                        JQuery!<br>
-                        Look here to get all your questions about this site, answered!</p>
-                    <p>Platforms: <i class="fa fa-globe"></i>(The Internet!)</p>
-                </div>
-                <div class="card-action">
-                    <a href="#" class="black-text">Read More</a>
-                </div>
+        <div class="col s12">
+            <div class="container">
+                <h2>WHAT WE ARE</h2>
+                <h5>Quad Cubed Studios was created by Raghu AllTheTime & Technohacker.</h5>
+                <h5>We are a small organization, aiming to create clean and free apps to share with everyone.</h5>
+                <a class="waves-effect waves-light btn orange darken-4" role="button" href="">Learn More</a>
             </div>
         </div>
-        <div class="col s12 m4">
-            <div class="card small orange darken-3">
-                <div class="card-content white-text">
-                    <span class="card-title">Multi Screen Pong</span>
+    </div>
+</div>
 
-                    <p>TuneSync is a beautiful game app synced to music.</p>
-                    <p>It is Quad³ Studios' first attempt, at creating a game.</p>
-                    <p>So far, we've started it out, and found music for it.</p>
-                    <p>Stay <i> Tuned </i> for more amazing updates!</p>
-                    <p>Platforms: <i class="mdi-action-android"></i> <i class="fa fa-apple"></i> </p>
-                </div>
-                <div class="card-action">
-                    <a href="http://quadcubedstudios.github.io/TuneSync" class="black-text">Read
-                        More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m4">
-            <div class="card small orange darken-3">
-                <div class="card-content white-text">
-                    <h1><i class="mdi-navigation-more-horiz"></i> </h1>
-                    <h1>More Coming Soon.</h1>
+<div class="projects">
+    <div class="row">
+        <div class="col s12">
+            <div class="container">
+                <h2>OUR PROJECTS</h2>
+                <h5>We have a few projects right now. Here are a few projects we are doing.</h5>
+
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card small orange darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">This Website</span>
+                                <p>This website is a simple HTML webpage, hosted on Github Pages.</p>
+                                <p>It uses the Materialize Framework, which is based on the material design guidelines.</p>
+
+                                <p>Platforms: <i class="fa fa-globe"></i>(The Internet!)</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="quadcubedstudios.github.io" class="black-text">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card small orange darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Multi Screen Pong</span>
+                                <p>Multi Screen Pong is a game across two screens.</p>
+                                <p>It allows users to play the game PONG, across two screens.</p>
+                                <p>It is currently in dev, and will be finished soon!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="MultiScreenPong" class="black-text">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card small orange darken-3">
+                            <div class="card-content white-text">
+                                <span class="card-title">Machete</span>
+                                <p>A Game framework for HTML5, that uses the DOM as a canvas.</p>
+                                <p>Made in Javascript and CSS.</p>
+                                <p>Simple as that.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row contact orange white-text darken-4">
-    <div class="container">
-        <h1>CONTACT US</h1>
-        <h3>Want to help, or join in the dev? Contact us for more details!</h3>
-        <a class="waves-effect waves-light btn orange darken-2">I Wanna talk!</a>
-        <h3>We are available on the following websites, too!</h3>
-        <a class="waves-effect waves-circle waves-light btn-floating black" href="https://github.com/QuadCubedStudios"><i class="fa fa-github"></i></a>
-        <a class="waves-effect waves-circle waves-light btn-floating facebook-blue" href="https://www.facebook.com/pages/Quad%C2%B3-Studios/408547402685749"><i class="fa fa-facebook"></i></a>
-        <a class="waves-effect waves-circle waves-light btn-floating red" href="https://plus.google.com/u/0/b/110784369087262717737/110784369087262717737/about"><i class="fa fa-google-plus"></i></a>
-        <a class="waves-effect waves-circle waves-light btn-floating twitter-blue"><i class="fa fa-twitter"></i></a>
+<div class="contact orange white-text darken-4">
+    <div class="row">
+        <div class="col s12">
+            <div class="container">
+                <h2 class="center">CONTACT US</h2>
+                <h5 class="center">Want to help, or join in the dev? Contact us for more details!</h5>
+                <div class="center">
+                    <a class="waves-effect waves-light btn orange darken-2">I Wanna talk!</a>
+                </div>
+                <h5 class="center">We are available on the following websites, too!</h5>
+                <div class="center">
+                    <a class="waves-effect waves-circle waves-light btn-floating black" href="https://github.com/QuadCubedStudios"><i class="fa fa-github"></i></a>
+                    <a class="waves-effect waves-circle waves-light btn-floating facebook-blue" href="https://www.facebook.com/pages/Quad%C2%B3-Studios/408547402685749"><i class="fa fa-facebook"></i></a>
+                    <a class="waves-effect waves-circle waves-light btn-floating red" href="https://plus.google.com/u/0/b/110784369087262717737/110784369087262717737/about"><i class="fa fa-google-plus"></i></a>
+                    <a class="waves-effect waves-circle waves-light btn-floating twitter-blue"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <footer class="page-footer orange darken-2">
-    <div class="container">
-        <div class="row">
-            <div class="col l12 s12">
-                All code on this website is given, free of cost, to anyone and everyone using the
-                Artistic License 2.0. <a
-                    href="https://github.com/quadcubedstudios/quadcubedstudios.github.io#fork-destination-box"
-                    class="indigo-text">Fork Me on Github</a>
-            </div>
-        </div>
-    </div>
     <div class="footer-copyright orange">
         <div class="container">
-            Copyright© Quad Cubed Studios. All Rights Reserved.
+            © Raghu R and Kevin K. Licensed under Artistic license 2.0.
         </div>
     </div>
 </footer>

@@ -1,8 +1,38 @@
 /*font-faces!!*/
-@font-face {
+/*@font-face {
     font-family: "Moon Bold";
     src: url("../font/Moon%20Bold.otf") format("opentype");
-}
+}*/
+
+/*@font-face {
+    font-family: "Borg";
+    src: url("../font/Borg.ttf") format("truetype");
+}*/
+
+/*@font-face {
+    font-family: "Berlin";
+    src: url("../font/Berlin.ttf") format("truetype");
+}*/
+
+/*@font-face {
+    font-family: "Berlin Bold";
+    src: url("../font/Berlin%20Bold.ttf") format("truetype");
+}*/
+
+/*@font-face {
+    font-family: "Berlin Italic";
+    src: url("../font/Berlin%20-%20Italic.ttf") format("truetype");
+}*/
+
+/*@font-face {
+    font-family: "Berlin X Bold";
+    src: url("../font/Berlin%20X-Bold.ttf") format("truetype");
+}*/
+
+/*@font-face {
+    font-family: "Bariol";
+    src: url("../font/`Bariol`_Regular/Bariol_Regular.otf") format("truetype");
+}*/
 
 @font-face {
     font-family: "Moon Light";
@@ -10,41 +40,26 @@
 }
 
 @font-face {
-    font-family: "Borg";
-    src: url("../font/Borg.ttf") format("truetype");
+    font-family: "Quicksand";
+    src:url("../font/Quicksand/Quicksand-Regular.otf");
 }
 
 @font-face {
-    font-family: "Berlin";
-    src: url("../font/Berlin.ttf") format("truetype");
+    font-family: "Quicksand Bold";
+    src:url("../font/Quicksand/Quicksand-Bold.otf");
 }
 
-@font-face {
-    font-family: "Berlin Bold";
-    src: url("../font/Berlin%20Bold.ttf") format("truetype");
+.row {
+    margin-bottom: 0;
 }
 
-@font-face {
-    font-family: "Berlin Italic";
-    src: url("../font/Berlin%20-%20Italic.ttf") format("truetype");
+body, html {
+    height: 100%;
+    width: 100%;
 }
 
-@font-face {
-    font-family: "Berlin X Bold";
-    src: url("../font/Berlin%20X-Bold.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Bariol";
-    src: url("../font/Bariol_Regular/Bariol_Regular.otf") format("truetype");
-}
-
-body {
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background: url("../img/BodyBg2.jpg") fixed;
+* {
+    font-family: "Quicksand";
 }
 
 .navbar {
@@ -55,67 +70,18 @@ body {
     font-family: 'Orbitron', sans-serif;
 }
 
-.navbar li {
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-}
-
 .what-we-are {
     //background-color: rgb(22,25,27);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     text-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #fff;
     width: 100%;
     margin-bottom: 0px;
-}
-
-.what-we-are h1 {
-    font-family: "Lato", sans-serif;
-    font-size: 70px;
-}
-
-.what-we-are h3 {
-    font-family: "Lato", sans-serif;
-    font-size: 30px;
-}
-
-.button {
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    display: block;
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);/*IE fix */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
-    background-color: rgba(255,255,255,0.4);
-    text-align: center;
-    align-self: center;
-    color: #000;
-    border: 5px solid #000;
-    border-radius: 10px;
-    height: 50px;
-    width: 15%;
-    margin-left: 43%;
-    margin-bottom: 2%;
-    transition: all .2s cubic-bezier(.77, .4, .19, .52);
-    -moz-transition: all .2s cubic-bezier(.77, .4, .19, .52);
-    -webkit-transition: all .2s cubic-bezier(.77, .4, .19, .52);
-    text-decoration: none;
-    padding-top:10px;
-}
-
-.button:hover {
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);/*IE fix */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
-    background-color: rgba(255,255,255,0.8);
-    text-decoration: none;
-    color: #000;
-}
-
-.button:focus {
-    text-decoration: none;
-    color: #000;
 }
 
 .navbar-brand img {
@@ -129,13 +95,8 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
 }
 
-.row {
-    margin-bottom: 0px;
-}
-
 .row h1 {
     text-align: center;
-    font-family: "Borg", sans-serif;
     font-size: 70px;
     color: white;
 }
@@ -146,85 +107,29 @@ body {
 
 .projects h3, h4 {
     text-align: center;
-    font-family: "Berlin", sans-serif;
     color: white;
-}
-
-.projects h2 {
-    font-family: "Lato", sans-serif;
-}
-
-.card.small .card-content {
-    height: 300px;
 }
 
 .jumbotron {
     padding: 30px 15px;
-    margin-bottom: 30px;
     color: inherit;
-    background-color: transparent;
-}
-.jumbotron h1,
-.jumbotron .h1 {
-    color: inherit;
-}
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 21px;
-    font-weight: 200;
-}
-.jumbotron > hr {
-    border-top-color: #d5d5d5;
-}
-.container .jumbotron,
-.container-fluid .jumbotron {
-    border-radius: 6px;
-}
-.jumbotron .container {
-    max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        padding: 48px 0;
-    }
-    .container .jumbotron,
-    .container-fluid .jumbotron {
-        padding-right: 60px;
-        padding-left: 60px;
-    }
-    .jumbotron h1,
-    .jumbotron .h1 {
-        font-size: 63px;
-    }
+    background: linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -webkit-linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -moz-linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -o-linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    height: 100%;
 }
 
 .jumbotron h1 {
     font-family: "Moon Light", sans-serif;
+    padding-left: 100px;
 }
 
-.jumbotron span{
+.jumbotron span.cubed {
     font-family: "Orbitron", sans-serif;
-}
-.jumbotron {
-    background-color:rgba(0,0,0,0.2);/* modern browser */
-    width:100%;
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.what-we-are h1 {
-    margin-top: 0px;
-    padding-top: 15px;
-}
-
-.projects h1 {
-    margin-top: 0px;
-    padding-top: 15px;
 }
 
 nav li {
-    font-family: "Lato", sans-serif;
     text-transform: uppercase;
 }
 
@@ -236,35 +141,12 @@ nav .brand-logo {
     margin-bottom: 20px;
 }
 
-.projects div.card-content > h1 {
-    margin-bottom: 0px;
-    font-family: "Bariol", sans-serif;
-    font-size: 50px;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact h3 {
-    font-family: "Berlin", sans-serif;
-}
-
 .facebook-blue {
     background-color: #3B5998 ;
 }
 
 .twitter-blue {
     background-color: #4099FF;
-}
-
-.contact h1 {
-    padding-top:20px;
-    margin-top: 0px;
-}
-
-div.card-content {
-    height: 300px;
 }
 
 .contact a.waves-circle {
@@ -274,23 +156,4 @@ div.card-content {
 
 footer.page-footer {
     margin-top: 0px;
-}
-
-.row .l12 {
-    padding-bottom: 20px;
-}
-
-@media screen and (min-width: 320px) {
-
-    nav .brand-logo {
-        font-size: 1.3rem;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
 }
