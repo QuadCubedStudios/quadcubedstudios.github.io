@@ -90,7 +90,7 @@ body, html {
 }
 
 .projects {
-    background-color: rgba(255, 144, 0, 0.79);;
+    background-color: rgba(0, 0, 0, 0.5);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);/*IE fix */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
 }
@@ -113,10 +113,10 @@ body, html {
 .jumbotron {
     padding: 30px 15px;
     color: inherit;
-    background: linear-gradient(rgb(255, 117, 0), rgb(255, 165, 0));
-    background: -webkit-linear-gradient(rgb(255, 117, 0), rgb(255, 165, 0));
-    background: -moz-linear-gradient(rgb(255, 117, 0), rgb(255, 165, 0));
-    background: -o-linear-gradient(rgb(255, 117, 0), rgb(255, 165, 0));
+    background: linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -webkit-linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -moz-linear-gradient(#c9c9c9, rgb(255, 194, 171));
+    background: -o-linear-gradient(#c9c9c9, rgb(255, 194, 171));
     height: 100%;
 }
 
