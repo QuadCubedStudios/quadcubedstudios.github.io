@@ -9,10 +9,10 @@
     src: url("../font/Borg.ttf") format("truetype");
 }*/
 
-/*@font-face {
+@font-face {
     font-family: "Berlin";
     src: url("../font/Berlin.ttf") format("truetype");
-}*/
+}
 
 /*@font-face {
     font-family: "Berlin Bold";
@@ -32,7 +32,7 @@
 /*@font-face {
     font-family: "Bariol";
     src: url("../font/`Bariol`_Regular/Bariol_Regular.otf") format("truetype");
-}*/
+}
 
 @font-face {
     font-family: "Moon Light";
@@ -45,21 +45,46 @@
 }
 
 @font-face {
-    font-family: "Quicksand Bold";
+    font-family: "";
     src:url("../font/Quicksand/Quicksand-Bold.otf");
-}
+} */
 
 .row {
     margin-bottom: 0;
 }
 
+.main {
+    height: 100%;
+    align-content: center
+
+
+}
+.main h1 {
+    padding-top: 20%;
+    opacity: 0.6;
+}
+.body {
+    height:100%;
+}
+
 body, html {
     height: 100%;
     width: 100%;
+    font-family: "Lato";
+    color: #e3f2fd !important;
 }
 
-* {
-    font-family: "Quicksand";
+
+.title, .main h3{
+    margin: 0 !important;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+p {
+    font-family: sans-serif;
+}
+.offset {
+    padding-left: 5% ;
 }
 
 .navbar {
@@ -89,11 +114,7 @@ body, html {
     height: 20px;
 }
 
-.projects {
-    background-color: rgba(0, 0, 0, 0.5);
-    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);/*IE fix */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
-}
+
 
 .row h1 {
     text-align: center;
